@@ -1,0 +1,38 @@
+-- Serviços base
+local Players = game:GetService("Players")
+
+-- Função que roda quando um jogador entra
+local function onPlayerAdded(player)
+    print("Jogador entrou:", player.Name)
+
+    -- Aqui você pode colocar funções ou comandos que quiser no futuro
+end
+
+-- Conectando o evento
+Players.PlayerAdded:Connect(onPlayerAdded) local Players = game:GetService("Players")
+
+-- ID da música que você quer tocar
+local MUSIC_ID = 1847663535 -- troque  pelo ID da música
+
+-- Função para tocar música para todos
+local function playMusicForAll()
+    local sound = Instance.new("Sound")
+    sound.SoundId = "rbxassetid://" .. MUSIC_ID
+    sound.Volume = 3
+    sound.Looped = true
+    sound.Parent = game.Workspace
+    sound:Play()
+end
+
+-- Toca música quando o servidor começar
+playMusicForAll()
+Aven-L-Hub-Admin-for_brookhaven_rp-HD-admin
+-functional ALL games Buy all game passes 100% 
+free starting now\Xd-now\11996177210 \9066980\850049439\9066988
+\15927395 \1459820822\the-codes\will-be
+\separated-one-from-HD-admin -other-what-they-are\Game-Pass\all
+-100\all\player-he-can-Having-the \same-commands-is\only\possible\if\you\speak\
+;fly\"player"All-functional\(Humano-ID)-Music-player-Yes-button No-button-60%+20% 
+ends 
+   ends 
+      ends
