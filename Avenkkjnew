@@ -36,11 +36,11 @@ Tab1:AddDiscordInvite({
 
 local Paragraph = Tab1:AddParagraph({"Studio AvenTb", "obrigado por ler"})
 
-local Paragraph = Tab1:AddParagraph({"Num Cumpensa OWNER", "maioria dos scripts meu"})
+local Paragraph = Tab1:AddParagraph({"AVEN OWNER", "maioria dos scripts meu"})
 
 local Paragraph = Tab1:AddParagraph({"Dailly <Tester", "nÃ£o usou exexutor mais ajudou em testes"})
 
-local Paragraph = Tab1:AddParagraph({"Jao Owner do AvenHub Hub", "Co Owener Obrigado Amgs."})
+local Paragraph = Tab1:AddParagraph({"aven Owner do AvenHub Hub", "Co Owener Obrigado Amgs."})
 
 local Paragraph = Tab1:AddParagraph({"so para os Parceiros Nosso", "SCRIPT CONFIDENCIAL"})
 
@@ -157,9 +157,9 @@ TabPlayers:AddButton({
     end
 })
 
-TabPlayers:AddSection({ "Variavels de kill -" })
+TabPlayers:AddSection({ "Variavels de error0 -" })
 
--- Auto Fling
+-- Auto Fllingg
 local flingActive = false
 TabPlayers:AddToggle({
     Name = "fling Croch",
@@ -299,8 +299,8 @@ TabPlayers:AddToggle({
 
 -- Fling All
 TabPlayers:AddButton({
-    Name = "Fling All",
-    Description = "Faz todos os jogadores do servidor voarem com fÃ­sica bruta.",
+    Name = "error All",
+    Description = "error all.",
     Callback = function()
         for _, player in pairs(Players:GetPlayers()) do
             if player ~= LocalPlayer and player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
